@@ -7,6 +7,32 @@ function App() {
 
   return (
     <>
+
+      {/* https://www.canva.com/design/DAGKhieA4ZI/Z4mTgatf1hJB62phK0tq_w/watch */}
+
+      {/* <container style="background-image: https://www.canva.com/design/DAGKhieA4ZI/Z4mTgatf1hJB62phK0tq_w/watch; width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;">
+
+      </container> */}
+
+      {/* <div class="bg" style="background-image: url('img);"></div> */}
+
+      {/* <video autoplay muted loop id="myVideo">
+        <source src="https://www.canva.com/design/DAGKhieA4ZI/Z4mTgatf1hJB62phK0tq_w/watch" type="url" />
+      </video>
+      <source /> */}
+      {/* <div class="bg-image">
+        <source src="https://www.canva.com/design/DAGKhieA4ZI/Z4mTgatf1hJB62phK0tq_w/watch" type="url" />
+      </div> */}
+
+      {/* <div
+        class="bg-image"
+        style="
+    background-image: url('https://www.canva.com/design/DAGKhieA4ZI/Z4mTgatf1hJB62phK0tq_w/watch');
+    height: 100vh;
+  "
+      > </div> */}
+
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SORU ÇÖZ(opsiyonel)</a>
@@ -46,12 +72,30 @@ function App() {
 
       {/* */}
 
+      <div className="container"> 
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="örnek_foto.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      {/*  */}
+
       <div class="container mt-4">
         <div class="row g-3">
           <div class="col-12 bg-primary">
             <div className="bg-primary">
               <div class="p-5 text-start bg-dark rounded-3">
-                <h1 class="text-white">Basic jumbotron</h1>
+                <h1 class="text-white">Deneme ---Deneme</h1>
                 <p class="lead text-white ">
                   <div class="overflow-auto"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum magnam sint aliquid, similique dolor, illo laborum facilis reiciendis aspernatur labore at eius harum nihil ratione dolore facere magni veniam omnis dignissimos aliquam quos sunt iusto ipsam ullam. Dolorum, in. Autem explicabo ut voluptates harum dolore asperiores neque aut rem hic nesciunt laboriosam in, rerum exercitationem tenetur aspernatur iure dicta repellat minima deserunt repellendus voluptatem eveniet at. Earum laboriosam voluptatem vel! </div>
                 </p>
@@ -155,18 +199,18 @@ function App() {
           </div>
 
           {/* Slide Show şeysi (türkçesini unuttum) */}
-          <div className="col-12">
-
+          <div className="container">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="https://picsum.photos/200/300" class="d-block w-50" alt="..."/>
+                  <img src="örnek_foto.jpg" class="d-block Width auto" alt="..." />
                 </div>
                 <div class="carousel-item">
-                  <img src="https://picsum.photos/200/300" class="d-block w-50" alt="..."/>
+                  <img src="https://picsum.photos/200/300" class="d-block Width auto" alt="..." />
+                  {/* class= w-10 gibi şekilde düzenlenebilir. */}
                 </div>
                 <div class="carousel-item">
-                  <img src="https://picsum.photos/200/300" class="d-block w-50" alt="..."/>
+                  <img src="https://picsum.photos/200/300" class="d-block Width auto" alt="..." />
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
